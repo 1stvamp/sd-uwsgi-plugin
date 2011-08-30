@@ -6,7 +6,7 @@ __version__ = "1.0.0"
 
 import subprocess
 
-class Uwsgi:
+class UWSGI:
     def __init__(self, config, logger, raw_config):
         self.config = config
         self.logger = logger
