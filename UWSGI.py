@@ -64,8 +64,8 @@ class UWSGI:
                         'but emperor instance not found')
                 return False
             return_data['Apps'] = len(commands)
-            return_data['Average instances per app'] = sum(len(v) for k,v
-                    in commands.iteritems())
+            return_data['Average instances per app'] = int(sum(len(v) for k,v
+                    in commands.iteritems()) / return_data['Apps'])
         else:
             # If we know the address and port uwsgi is running on
             # try to ping it
