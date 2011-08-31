@@ -29,7 +29,7 @@ or implied, of Wesley Aaron Mason.
 """
 
 __author__ = "Wesley Mason <wes@1stvamp.org>"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 import subprocess
 
